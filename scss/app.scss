@@ -1,0 +1,36 @@
+// 01-config
+@import './01-config/normalize';
+@import './01-config/imports';
+@import './01-config/resets';
+@import './01-config/variables';
+
+// 02-base
+@import './02-base/layout';
+@import './02-base/header';
+@import './02-base/footer';
+
+// 03-components
+@import './03-components/buttons';
+@import './03-components/forms';
+
+// 04-utilities
+
+// Remove styles below
+
+body {
+  background-color: tomato;
+  color: bisque;
+}
+
+div {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 3rem;
+}

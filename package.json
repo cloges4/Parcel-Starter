@@ -1,0 +1,28 @@
+{
+  "name": "parcel-starter",
+  "version": "1.0.0",
+  "description": "A javascript sass workflow",
+  "main": "app.js",
+  "scripts": {
+    "dev": "parcel index.html --out-dir development",
+    "clean": "rimraf ./development && rimraf -rf ./.cache && rimraf ./production",
+    "build": "parcel build index.html --out-dir production"
+  },
+  "keywords": [
+    "parcel",
+    "sass",
+    "javascript",
+    "babel",
+    "autoprefixer"
+  ],
+  "author": "Charles Loges IV",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "autoprefixer": "^9.8.5",
+    "node-sass": "^4.14.1",
+    "parcel-bundler": "^1.12.4",
+    "rimraf": "^3.0.2"
+  }
+}
